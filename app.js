@@ -1,4 +1,4 @@
-// Create a variable called firstVariable.
+// B. Create a variable called firstVariable.
 // Assign it the value of the string "Hello World"
 // Change the value of this variable to some number.
 // Store the value of firstVariable in a new variable called secondVariable
@@ -22,7 +22,7 @@ const c = 57;
 const d = 16;
 const e = 'Kevin';
 
-// console.log(a __ b);
+//C. console.log(a __ b);
 // console.log(c __ d);
 // console.log('Name' __ 'Name');
 // // FOR THE NEXT TWO, USE ONLY && OR ||
@@ -57,4 +57,15 @@ if(animal === "cow"){
     console.log("mooooo");
 }else{
     console.log("Hey! You're not a cow.")
+};
+
+// E. Driver's Ed
+// Make a variable that holds a person's age. Be semantic.
+// Write code that will print out "Here are the keys!", if the age is 16 years or older, or, if the age is younger than 16, a message should print "Sorry, you're too young."
+
+let age = 36;
+if(age >= 16){
+    console.log("Here are the keys!")
+}else {
+    console.log("Sorry, you're too young.")
 };
